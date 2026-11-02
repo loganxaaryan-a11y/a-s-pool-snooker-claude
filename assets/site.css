@@ -67,3 +67,8 @@
 .break-play.is-playing .break-poster{transition:opacity .72s ease-out,transform .8s ease-out;transform:scale(1.025)}
 .break-play.is-playing .break-poster img{transform:scale(1.13) translateY(2%);transition:transform .85s cubic-bezier(.2,.6,.1,1)}
 @media(prefers-reduced-motion:reduce){.break-play.is-playing .break-poster,.break-play.is-playing .break-poster img{transition:none;transform:none}}
+
+/* Club identity: owner-supplied logo, framed for contrast on all backgrounds. */
+.club-logo{display:block;flex:none;width:50px;height:46px;object-fit:contain;border-radius:8px;border:1px solid #e6cd8e70;background:#a3acc5;box-shadow:0 3px 12px #0003}
+.footer-brand .club-logo{width:60px;height:55px}
+@media(max-width:590px){.brand{gap:8px}.brand .club-logo{width:42px;height:40px}.brand-name{font-size:12px}}
